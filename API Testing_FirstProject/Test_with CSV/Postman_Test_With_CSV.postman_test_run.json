@@ -1,0 +1,238 @@
+{
+	"id": "e056f52b-a6e0-42ba-af25-a6f08dc328e4",
+	"name": "Postman_Test_With_CSV",
+	"timestamp": "2024-10-21T07:35:28.774Z",
+	"collection_id": "39092014-7586d0c1-8894-4625-afde-9b63b9326144",
+	"folder_id": 0,
+	"environment_id": "39092014-22f1ef56-1f12-4661-82c0-a5db81ffbefb",
+	"totalPass": 27,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-10-21T07:35:14.016Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bdca9eed-313d-4151-b356-288190b5426d",
+			"name": "Create",
+			"url": "https://restful-booker.herokuapp.com/booking/",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1283,
+				242,
+				241,
+				242,
+				251,
+				242,
+				250,
+				343,
+				242
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "3fd33fdd-e9a8-436c-984d-12e5d76d8877",
+			"name": "getData",
+			"url": "https://restful-booker.herokuapp.com/booking/2578",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code 200": true,
+				"First Name Validation": true
+			},
+			"testPassFailCounts": {
+				"Status code 200": {
+					"pass": 9,
+					"fail": 0
+				},
+				"First Name Validation": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				1252,
+				256,
+				266,
+				244,
+				292,
+				335,
+				340,
+				322,
+				245
+			],
+			"allTests": [
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				},
+				{
+					"Status code 200": true,
+					"First Name Validation": true
+				}
+			]
+		},
+		{
+			"id": "1312c031-9dbf-4dfc-805b-7b4b1eb6f754",
+			"name": "Token",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 244,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				294,
+				330,
+				341,
+				322,
+				273,
+				316,
+				342,
+				247,
+				244
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "53f6cce4-3c8c-454a-bb05-1b98667f8568",
+			"name": "Update",
+			"url": "https://restful-booker.herokuapp.com/booking/2578",
+			"time": 246,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code 200": true
+			},
+			"testPassFailCounts": {
+				"Status code 200": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				246,
+				247,
+				246,
+				257,
+				244,
+				245,
+				245,
+				246,
+				246
+			],
+			"allTests": [
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				},
+				{
+					"Status code 200": true
+				}
+			]
+		}
+	],
+	"count": 9,
+	"totalTime": 11819,
+	"collection": {
+		"requests": [
+			{
+				"id": "bdca9eed-313d-4151-b356-288190b5426d",
+				"method": "POST"
+			},
+			{
+				"id": "3fd33fdd-e9a8-436c-984d-12e5d76d8877",
+				"method": "GET"
+			},
+			{
+				"id": "1312c031-9dbf-4dfc-805b-7b4b1eb6f754",
+				"method": "POST"
+			},
+			{
+				"id": "53f6cce4-3c8c-454a-bb05-1b98667f8568",
+				"method": "PUT"
+			}
+		]
+	}
+}
